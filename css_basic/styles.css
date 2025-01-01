@@ -17,3 +17,44 @@ article{
 aside{
     flex:1
 }
+
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+}
+
+header ul li {
+    margin-right: 15px;
+    color:#f4f4f4;
+}
+
+li{
+    color:#e0e0e0;
+}
+
+header ul .logo {
+    font-size: 24px;
+    margin-right: auto; /* Pushes other items to the right */
+}
+
+/* Article-specific styles */
+article {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Aside styles */
+aside {
+    background: #e0e0e0;
+    padding: 10px;
+}
